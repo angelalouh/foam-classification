@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Culture Biosciences' take home challenge: Foaming Classification System",
   "scripts": {
+    "backend-dependencies": "npm install --prefix backend",
+    "client-dependencies": "npm install --prefix client",
+    "install-all-deps": "concurrently \"npm run backend-dependencies\" \"npm run client-dependencies\"",
     "backend": "npm run start:dev --prefix backend",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run client\""
