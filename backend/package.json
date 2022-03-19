@@ -1,0 +1,24 @@
+{
+  "name": "foam-classification-app-backend",
+  "version": "1.0.0",
+  "description": "Culture Biosciences' take home challenge: Foam Classification System backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:dev": "nodemon src/server.js",
+    "client": "npm start --prefix client"
+  },
+  "keywords": [],
+  "author": "Angela Louh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "knex": "^1.0.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

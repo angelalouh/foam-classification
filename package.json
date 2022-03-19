@@ -1,0 +1,16 @@
+{
+  "name": "foam-classification-app",
+  "version": "1.0.0",
+  "description": "Culture Biosciences' take home challenge: Foaming Classification System",
+  "scripts": {
+    "backend": "npm run start:dev --prefix backend",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Angela Louh",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
