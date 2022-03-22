@@ -8,7 +8,7 @@ Created a foaming classification system based on the following four requirements
 - As a user, I need to be able to filter by foaming, non-foaming, and unclassified images.
 
 ## Links
-- [Live Demo](https://www.loom.com/share/a59c3653ec474de2b4ef07eb06644572)
+- [Loom Demo](https://www.loom.com/share/a59c3653ec474de2b4ef07eb06644572)
 
 ## Technology
 ### Built with:
